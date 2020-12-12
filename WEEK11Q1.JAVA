@@ -13,6 +13,7 @@ public class InsertData {
               stmt = conn.createStatement();
 // The statement containing SQL command to create table "players"
 String CREATE_TABLE_SQL="CREATE TABLE players (UID INT, First_Name VARCHAR(45), Last_Name VARCHAR(45), Age INT);";
+// Execute the statement containing SQL command
 stmt.executeUpdate(CREATE_TABLE_SQL);
 // Write code here…String CREATE_TABLE_SQL="CREATE TABLE players (UID INT, First_Name VARCHAR(45), Last_Name VARCHAR(45), Age INT);";
 // Execute the statement containing SQL command
